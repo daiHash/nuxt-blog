@@ -5,6 +5,9 @@
 ## Build Setup
 
 ``` bash
+# If you use nvm or similar, you should exclude installing Node.js so that nvm’s version of Node.js is used.
+$ brew install yarn --without-node
+
 # install dependencies
 $ yarn install
 
